@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+nav {
+    font-size: 22px;
+    background-color: #90e0ef;
+    overflow: hidden;
+    scroll-behavior: auto;
+}
+nav{
+    text-decoration: none;
+    margin: 0 auto;
+}
+.title{
+    color: #4361ee;
+    padding: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.btn-princ{
+    display: inline-block;
+
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 240px;
+    padding-right: 15px;
+}
+.btn-azul {
+    float: right;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background-color: #00a8e8;
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-azules{
+    color: #fff;
+    text-decoration: none;
+}
+.info1 {
+    font-size: 15px;
+    width: 50%;
+    height: 380px;
+    padding: 50px;
+    float: left;
+    background-color: #edf2fb;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+h1 {
+    font-size: 50px;
+}
+.link {
+    text-decoration: none;
+    background-color: #f8f7ff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.vacunam {
+    width: 50%;
+    height: 380px;
+}
+.vac-bar {
+    font-size: 14px;
+    width: 520px;
+    padding: 20px;
+    background-color: #f8f7ff;
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    opacity: 0.8;
+
+}
+.btn-primary {
+    background-color: #00a8e8;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.btns {
+    margin-left: 50px;
+}
+.imgico img {
+    width: 16px;
+}
+
+.item-bar {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+.imglogo {
+    display: inline-block;
+    opacity: 0.5;
+    width: 24.5%;
+}
+.card-1 {
+    display: inline-block;
+    font-size: 10px;
+    border-style: double;
+    border-radius: 6px;
+    border-color: #ccc;
+    width: 300px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.question {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cards-logo {
+    width: 50px;
+
+}
+.cardscuatro {
+    margin-bottom: 20px;
+}
+.img-jeringas {
+    display: inline-block;
+    width: 50%;
+    /* height: 700px; */
+}
+.img-jeringa {
+   width: 100%;
+   /* height: 110%; */
+}
+.info2 {
+    width: 48%;
+    /* height: 650px; */
+    display: inline-block;
+    margin-top: 50px;
+    float: right;
+}
+.card-2 {
+    display: inline-block;
+    font-size: 10px;
+    border-style: double;
+    border-radius: 6px;
+    border-color: #ccc;
+    width: 350px;
+    position: relative;
+    left: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+}
+.card-2 h3 {
+    display: inline-block;
+}
+.cards-2logo {
+    width: 30px;
+    display: inline-block;
+}
+.logo3 {
+    display: inline-block;
+}
+.contac {
+    display: inline-block;
+}
+.info3 {
+    display: inline-block;
+    width: 49%;
+    float: left;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.card-3 {
+    display: inline-block;
+    font-size: 15px;
+    border-style: double;
+    border-radius: 6px;
+    border-color: #ccc;
+    width: 150px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin-top: 100px;  
+}
+.btn-btn-primary {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logofin {
+    width: 30px;
+}
+.img-doctora {
+    width: 48%;
+    display: inline-block;
+}
+
+.img-doctora img {
+    width: 100%;
+}
+.btn-btn-primary {
+    background-color: #00a8e8;
+    
+}
+footer {
+    background-color: #e2eafc;
+    height: 270px;
+    font-size: 15px;
+}
+.leyenda {
+    display: inline-block;
+    width: 48%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.copy {
+    margin-top: 130px;
+    margin-left: 15px;
+}
+.abouts {
+    display: inline-block;
+    width: 48%;
+    text-align: justify;
+    margin-top: 30px;
+}
+.about {
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+.company {
+    display: inline-block;
+    margin-right: 50px;
+}
+.support {
+    display: inline-block;
+}
+footer ul li {
+    list-style: none;
+}
